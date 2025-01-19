@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineStream</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">CineStream</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#movies">Movies</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#login">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Unlimited Movies, Shows, and More</h1>
+      <p>Stream anywhere. Cancel anytime.</p>
+      <button>Get Started</button>
+    </div>
+  </section>
+
+  <section id="movies">
+    <h2>Popular Movies</h2>
+    <div class="movie-grid">
+      <!-- Movie cards -->
+      <div class="movie-card">
+        <img src="movie1.jpg" alt="Movie 1">
+        <h3>Movie Title 1</h3>
+      </div>
+      <div class="movie-card">
+        <img src="movie2.jpg" alt="Movie 2">
+        <h3>Movie Title 2</h3>
+      </div>
+      <!-- Add more cards here -->
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 CineStream. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
